@@ -14,7 +14,7 @@ export default class AdMobBanner extends React.Component {
     super();
     this.onSizeChange = this.onSizeChange.bind(this);
     this.state = {
-      style: {},
+      style: {width: 320, height: 250},
     };
   }
 
